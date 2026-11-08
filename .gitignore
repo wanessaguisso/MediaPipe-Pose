@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+# modelo (~6 MB, baixado automaticamente) e sons (gerados na 1ª execução)
+assets/pose_landmarker.task
+assets/pose_landmarker.tmp
+assets/sons_glam/

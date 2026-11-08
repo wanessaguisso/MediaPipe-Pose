@@ -1,0 +1,7 @@
+# Versões fixadas (testadas com Python 3.14, Windows).
+# O mediapipe já depende de opencv-contrib-python, que é um superset do
+# opencv-python (mesmo módulo `import cv2`). Instalar os DOIS no mesmo ambiente
+# causa conflito, então fixamos apenas o contrib.
+mediapipe==1.2.2
+opencv-contrib-python==5.0.0.93
+numpy==2.5.4
